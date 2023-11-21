@@ -1,0 +1,201 @@
+header{
+    display: flex;
+    width: 100%;
+    height: 95px;
+    background-color: aqua;
+    justify-content: center;
+}
+
+.logo{
+    height: 88px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.navigation {
+     color: aquamarine;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+}
+
+/* style.css */
+
+/* Flex container for the section */
+.college-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    transition: 0.3s;
+   
+  }
+  .college-container:hover {
+    width: 82%;
+  }
+  
+  /* Style for the college section */
+  .college {
+    background-color: #fbb4ac;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    
+  }
+  .college:hover{
+    background-color: #e27474;
+  }
+  
+  
+  /* Style for the college image */
+  .college img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the college name heading */
+  .college h3 {
+    color: #3498db;
+  }
+  
+  /* Style for the link */
+  .college a {
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .college a:hover {
+    text-decoration: underline;
+  }
+
+  .regular-image {
+    width: 300px;
+    height: 200px;
+    border-radius: 7%;
+  }
+  
+  .facebook{
+    height: 42px;
+  }
+
+.instagram {
+    height: 40px;
+}
+
+.linkedin {
+    height: 40px;
+}
+
+.x{
+    height: 45px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.scroll-container {
+    position: relative;
+    width: 100%;
+    height: 11vh; 
+  }
+
+.scroll-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+  height: 11vh; 
+}
+
+.scroll-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+
+
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+  height: 11vh; 
+}
+
+.scroll-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.scroll-container {
+  margin-bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.scroll-button {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: 90px;
+  background-color: rgba(52, 152, 219, 0.5);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 95%; 
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 80%;
+  transition: opacity 0.3s;
+}
+
+.scroll-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 80%;
+}
+
+
+
+
